@@ -86,7 +86,9 @@
 
                 button.find('.qr-code').html('<img style="margin:5px" src="' + root + 'qr?data=' + receivers_address + '&size=125">');
 
-                button.unbind();
+                try {
+                    button.unbind();
+                } catch (err) {}
 
                 ///Check for incoming payment
                 setTimeout(checkBalance, 5000);

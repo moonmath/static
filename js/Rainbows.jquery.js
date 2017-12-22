@@ -14,7 +14,7 @@ $(function ($) {
 
         __init__: function () {
             var count = -1;
-            while (count < 6) {
+            while (count < 7) {
                 var cString = count.toString();
                 $.Rainbows.horizontalGridLines['gl' +cString]  = Math.pow(10, count);
                 $.Rainbows.horizontalGridLines['gl' +cString + '_25']  = Math.pow(10, (count + 0.25));

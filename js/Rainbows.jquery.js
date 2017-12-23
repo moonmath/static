@@ -24,17 +24,18 @@ $(function ($) {
             }
             $.Rainbows.timeCache = new Date(Date.now()).toISOString().split(":")[0];
             $.Rainbows.set(
-                'svg#r2017',
-                "data/rainbow2017.csv",
-                12,
-                "#mm-calcs table tbody tr:nth-child(7) td:nth-child(6)"
-            );
-            $.Rainbows.set(
                 'svg#r2012',
                 "data/rainbowVars.csv",
-                8,
+                9.5,
                 "#mm-calcs table tbody tr:nth-child(7) td:nth-child(11)"
             );
+            $.Rainbows.set(
+                'svg#r2017',
+                "data/rainbow2017.csv",
+                14.5,
+                "#mm-calcs table tbody tr:nth-child(7) td:nth-child(6)"
+            );
+
         },
 
         set: function (target, source, strokeWidth, cdprString) {

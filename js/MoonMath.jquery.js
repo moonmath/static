@@ -24,7 +24,8 @@ $(function ($) {
                         throw error;
                     }
                     var sortAscending = true;
-                    var table = d3.select('#mm-calcs').append('table');
+                    var table = d3.select('#mm-calcs').append('table')
+                        .attr('class', 'table table-responsive table-striped');
                     var titles = d3.keys(data[0]);
                     var headers = table.append('thead').append('tr')
                         .selectAll('th')
@@ -82,7 +83,8 @@ $(function ($) {
                         throw error;
                     }
                     var sortAscending = true;
-                    var table = d3.select('#sub-calcs').append('table');
+                    var table = d3.select('#sub-calcs').append('table')
+                        .attr('class', 'table table-responsive table-striped');;
                     var titles = d3.keys(data[0]);
                     var headers = table.append('thead').append('tr')
                         .selectAll('th')

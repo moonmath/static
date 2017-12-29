@@ -1,0 +1,73 @@
+#sub-calcs,
+#mm-calcs {
+    margin: 20px;
+}
+p {
+    margin: 20px 0;
+}
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Zebra striping */
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    cursor: s-resize;
+    background-repeat: no-repeat;
+    background-position: 3% center;
+}
+td,
+th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+th.des:after {
+    content: "\21E9";
+}
+th.aes:after {
+    content: "\21E7";
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+/* Donation ----------------- */
+
+.blockchain-btn {
+    cursor: pointer;
+}
+/* Rainbow Charts ----------- */
+
+.grid line {
+    stroke: grey;
+    stroke-opacity: 0.3;
+    shape-rendering: crispEdges;
+}
+.grid path {
+    stroke-width: 0;
+}
+.axis .domain {
+    display: none;
+}
+
+.footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+

@@ -117,7 +117,7 @@ $(function ($) {
                     .select(".domain");
                 slf.g.append("g")
                     .call(
-                        d3.axisLeft(slf.y).tickFormat(d3.format(",.2r"))
+                        d3.axisLeft(slf.y)
                     )
                     .append("text")
                     .attr("fill", "#000")

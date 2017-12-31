@@ -6,8 +6,8 @@ p {
     margin: 20px 0;
 }
 
-/* 
-Generic Styling, for Desktops/Laptops 
+/*
+Generic Styling, for Desktops/Laptops
 */
 
 table {
@@ -39,7 +39,7 @@ th.des:after {
 th.aes:after {
     content: "\21E7";
 }
-/* 
+/*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
 and also iPads specifically.
@@ -70,4 +70,3 @@ and also iPads specifically.
     background-color: #f9f9f9;
     border-top: .05rem solid #e5e5e5;
 }
-

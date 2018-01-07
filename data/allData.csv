@@ -2729,9 +2729,13 @@ Date,Close
 2018-01-04,15155.2263
 2018-01-05,16937.1738
 <<<<<<< HEAD
+<<<<<<< HEAD
 2018-01-06,17135.8363
 =======
 >>>>>>> 50a8753... daily commit
+=======
+2018-01-06,17135.8363
+>>>>>>> a2fec84... Daily Commit
 
 "This data was produced from the CoinDesk price page."
 http://www.coindesk.com/price/
